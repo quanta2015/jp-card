@@ -1,11 +1,10 @@
 var path = require('path');
 var fs = require('fs');
-var inputFile =  'data.md';
-var outFile = 'ret.json'
 
-
-var data = fs.readFileSync(inputFile,'utf-8').split(/[\n]/)
 var ret = []
+var inputFile =  'data.md';
+var outFile   =  'ret.json'
+var data = fs.readFileSync(inputFile,'utf-8').split(/[\n]/)
 
 data.forEach(function(e){
 	var item = {
@@ -43,5 +42,4 @@ data.forEach(function(e){
 })
 
 // console.log(ret)
-
 fs.writeFileSync(outFile, JSON.stringify(ret));

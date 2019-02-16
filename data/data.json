@@ -1,1 +1,1856 @@
-{"name":"jpcard","list":[{"ln":"0","base":"禁","hiragana":"きん","ex":[{"base":"禁止","hiragana":"きんし","chinese":"禁止"}]},{"ln":"1","base":"煙","hiragana":["えん","けむり"],"ex":[{"base":"禁煙","hiragana":"きんえん","chinese":"禁烟"},{"base":"煙","hiragana":"けむり","chinese":"烟"}]},{"ln":"1","base":"静","hiragana":["せい","しず-か","しず-まる"],"ex":[{"base":"安静","hiragana":"あんせい","chinese":"安静"},{"base":"静か","hiragana":"しずか","chinese":"寂静"},{"base":"静まる","hiragana":"しずまる","chinese":"平静下来"}]},{"ln":"2","base":"危","hiragana":["き","あぶ-ない","あや-うい"],"ex":[{"base":"危機","hiragana":"きき","chinese":"危机"},{"base":"危ない","hiragana":"あぶない","chinese":"危险"},{"base":"危うい","hiragana":"あやうい","chinese":"危险的"}]},{"ln":"0","base":"険","hiragana":["けん","けわ-しい"],"ex":[{"base":"危険","hiragana":"きけん","chinese":"危险"},{"base":"険しい","hiragana":"けわしい","chinese":"险峻"}]},{"ln":"0","base":"関","hiragana":["かん","かかわる"],"ex":[{"base":"関心","hiragana":"かんしん","chinese":"关心"},{"base":"関わる","hiragana":"かかわる","chinese":"关系到"},{"base":"(〜に)関する","hiragana":"(〜に)かんする","chinese":"关于...的"}]},{"ln":"0","base":"係","hiragana":["けい","かかり"],"ex":[{"base":"関係","hiragana":"かんけい","chinese":"关系"},{"base":"係","hiragana":"かかり","chinese":"担当者"},{"base":"係員","hiragana":"かかりいん","chinese":"工作人员"}]},{"ln":"0","base":"落","hiragana":["らく","お-ちる","お-とす"],"ex":[{"base":"転落","hiragana":"てんらく","chinese":"滚下"},{"base":"落第","hiragana":"らくだい","chinese":"不及格"},{"base":"落ちる","hiragana":"おちる","chinese":"落下"},{"base":"落とす","hiragana":"おとす","chinese":"使落下"}]},{"ln":"0","base":"石","hiragana":["せき","しゃく","いし"],"ex":[{"base":"落石","hiragana":"らくせき","chinese":"落石"},{"base":"磁石","hiragana":"じしゃく","chinese":"磁铁"},{"base":"石","hiragana":"いし","chinese":"石头"}]},{"ln":"2","base":"飛","hiragana":["ひ","と-ぶ","と-ばす"],"ex":[{"base":"飛行場","hiragana":"ひこうじょう","chinese":"机场"},{"base":"飛ぶ","hiragana":"とぶ","chinese":"飞行"},{"base":"飛び出す","hiragana":"とびだす","chinese":"跳出"}]},{"ln":"0","base":"駐","hiragana":["ちゅう"],"ex":[{"base":"駐車場","hiragana":"ちゅうしゃじょう","chinese":"停车场"},{"base":"駐車","hiragana":"ちゅうしゃ","chinese":"停车"}]},{"ln":"0","base":"捨","hiragana":["しゃく","す-てる"],"ex":[{"base":"四捨五入","hiragana":"ししゃごにゅう","chinese":"四舍五入"},{"base":"捨てる","hiragana":"すてる","chinese":"抛弃"}]},{"ln":"0","base":"遊","hiragana":["ゆう","あそ-ぶ"],"ex":[{"base":"遊泳","hiragana":"ゆうえい","chinese":"游泳"},{"base":"遊ぶ","hiragana":"あそぶ","chinese":"玩"}]},{"ln":"2","base":"泳","hiragana":["えい","およぐ"],"ex":[{"base":"水泳","hiragana":"すいえい","chinese":"游泳"},{"base":"泳ぐ","hiragana":"およぐ","chinese":"游泳"}]},{"ln":"0","base":"喫","hiragana":"きっ","ex":[{"base":"喫茶店","hiragana":"きっさてん","chinese":"咖啡店"},{"base":"喫煙所","hiragana":"きつえんじょ","chinese":"吸烟室"}]},{"ln":"0","base":"非","hiragana":"ひ","ex":[{"base":"非〜","hiragana":"ひ","chinese":"非~"},{"base":"非常口","hiragana":"ひじょうぐち","chinese":"太平门"},{"base":"非常に","hiragana":"ひじょうに","chinese":"非常"}]},{"ln":"0","base":"御","hiragana":["ご","おん"],"ex":[{"base":"御〜","hiragana":"ご〜","chinese":"表示尊敬"},{"base":"御手洗い","hiragana":"おてあらい","chinese":"洗手间"},{"base":"御中","hiragana":"おんちゅう","chinese":"公启"}]},{"ln":"0","base":"常","hiragana":["じょう","つね"],"ex":[{"base":"日常","hiragana":"にちじょう","chinese":"日常"},{"base":"常識","hiragana":"じょうしき","chinese":"常识"},{"base":"常に","hiragana":"つねに","chinese":"经常"}]},{"ln":"0","base":"受","hiragana":["じゅ","う-ける"],"ex":[{"base":"受験","hiragana":"じゅけん","chinese":"应试"},{"base":"受ける","hiragana":"えける","chinese":"接受"}]},{"ln":"0","base":"付","hiragana":["ふ","つ-ける","つ-く"],"ex":[{"base":"付近","hiragana":"ふきん","chinese":"附近"},{"base":"〜付き","hiragana":"〜付き","chinese":"附带"},{"base":"受付","hiragana":"うけつけ","chinese":"接待处"},{"base":"日付","hiragana":"ひづけ","chinese":"日期"}]},{"ln":"0","base":"案","hiragana":"あん","ex":[{"base":"案内","hiragana":"あんない","chinese":"指示、向导"},{"base":"案","hiragana":"あん","chinese":"草案"}]},{"ln":"0","base":"内","hiragana":["ない","うち"],"ex":[{"base":"以内","hiragana":"いない","chinese":"以内"},{"base":"社内","hiragana":"しゃない","chinese":"公司内"},{"base":"〜内","hiragana":"〜ない","chinese":"~之内"},{"base":"内","hiragana":"うち","chinese":"内、里面"}]},{"ln":"0","base":"議","hiragana":"ぎ","ex":[{"base":"会議室","hiragana":"かいぎしつ","chinese":"会议室"},{"base":"不思議な","hiragana":"ふしぎな","chinese":"不可思议的"},{"base":"議論","hiragana":"ぎろん","chinese":"争论"},{"base":"議員","hiragana":"ぎいん","chinese":"议员"}]},{"ln":"0","base":"化","hiragana":["か","け"],"ex":[{"base":"文化","hiragana":"ぶんか","chinese":"文化"},{"base":"化学","hiragana":"かがく","chinese":"化学"},{"base":"〜化","hiragana":"〜か","chinese":"~化"},{"base":"化粧室","hiragana":"けしょうしつ","chinese":"化妆室"}]},{"ln":"0","base":"階","hiragana":"かい","ex":[{"base":"階段","hiragana":"かいだん","chinese":"楼梯"},{"base":"〜階","hiragana":"〜かい","chinese":"~楼"},{"base":"段階","hiragana":"だんかい","chinese":"阶段"}]},{"ln":"0","base":"段","hiragana":"だん","ex":[{"base":"段","hiragana":"だん","chinese":"楼梯、段落"},{"base":"手段","hiragana":"しゅだん","chinese":"手段"},{"base":"一段と","hiragana":"いちだんと","chinese":"更加"},{"base":"石段","hiragana":"いしだん","chinese":"石阶"}]},{"ln":"0","base":"営","hiragana":"えい","ex":[{"base":"営業","hiragana":"えいぎょう","chinese":"营业"}]},{"ln":"0","base":"放","hiragana":["ほう","はな-す","はな-れる"],"ex":[{"base":"放送","hiragana":"ほうそう","chinese":"广播"},{"base":"開放","hiragana":"かいほう","chinese":"开放"},{"base":"開放厳禁","hiragana":"かいほうげんきん","chinese":"禁止打开"},{"base":"放す","hiragana":"はなす","chinese":"放开"}]},{"ln":"0","base":"押","hiragana":["おす","お-される"],"ex":[{"base":"押す","hiragana":"おす","chinese":"按"},{"base":"押し入れ","hiragana":"おしいれ","chinese":"日本式的壁橱"},{"base":"押さえる","hiragana":"おさえる","chinese":"按压"}]},{"ln":"0","base":"準","hiragana":"じゅん","ex":[{"base":"準備","hiragana":"じゅんび","chinese":"准备"},{"base":"水準","hiragana":"すいじゅん","chinese":"水平"},{"base":"準急","hiragana":"じゅんきゅう","chinese":"普通快车"},{"base":"準決勝","hiragana":"じゅんけっしょう","chinese":"半决赛"}]},{"ln":"0","base":"備","hiragana":["び","そな-える"],"ex":[{"base":"備品","hiragana":"びひん","chinese":"备品"},{"base":"備える","hiragana":"そなえる","chinese":"防备、设置、具备"},{"base":"備え付けの","hiragana":"そなえつけの","chinese":"配备的"}]},{"ln":"0","base":"定","hiragana":["てい","定"],"ex":[{"base":"定員","hiragana":"ていいん","chinese":"规定的人数"},{"base":"定休日","hiragana":"ていきゅうび","chinese":"公休日"},{"base":"定食","hiragana":"ていしょく","chinese":"客饭"},{"base":"定規","hiragana":"じょうぎ","chinese":"尺"}]},{"ln":"0","base":"流","hiragana":["りゅう","なが-れる","なが-す"],"ex":[{"base":"流行","hiragana":"りゅうこう","chinese":"流行"},{"base":"流れる","hiragana":"ながれる","chinese":"流"},{"base":"流す","hiragana":"ながす","chinese":"使...流动"}]},{"ln":"0","base":"清","hiragana":["せい","きよ-い"],"ex":[{"base":"清書","hiragana":"せいしょ","chinese":"眷写"},{"base":"清い","hiragana":"きよい","chinese":"清"},{"base":"清流","hiragana":"せいりゅう","chinese":"清溪"},{"base":"清い流れ","hiragana":"清いながれ","chinese":"清溪"}]},{"ln":"0","base":"掃","hiragana":["そう","は-く"],"ex":[{"base":"清掃","hiragana":"せいそう","chinese":"打扫"},{"base":"掃く","hiragana":"かく","chinese":"打扫"}]},{"ln":"0","base":"閉","hiragana":["はい","とじる","しめる","しまる"],"ex":[{"base":"閉会","hiragana":"へいかい","chinese":"闭会"},{"base":"閉店","hiragana":"へいてん","chinese":"关店"},{"base":"閉まる","hiragana":"しまる","chinese":"紧闭"},{"base":"閉める","hiragana":"しめる","chinese":"关闭"},{"base":"閉じる","hiragana":"とじる","chinese":"(口目本)关闭"}]},{"ln":"0","base":"点","hiragana":"てん","ex":[{"base":"点","hiragana":"てん","chinese":"点"},{"base":"〜点","hiragana":"〜てん","chinese":"~分"},{"base":"欠点","hiragana":"けってん","chinese":"缺点"}]},{"ln":"0","base":"検","hiragana":"けん","ex":[{"base":"点検","hiragana":"てんけん","chinese":"检查"},{"base":"検問","hiragana":"けんもん","chinese":"盘问"}]}]}
+{
+  "name": "jpcard",
+  "list": [
+    {
+      "ln": "0",
+      "base": "禁",
+      "hiragana": "きん",
+      "ex": [
+        {
+          "base": "禁止",
+          "hiragana": "きんし",
+          "chinese": "禁止"
+        }
+      ]
+    },
+    {
+      "ln": "1",
+      "base": "煙",
+      "hiragana": [
+        "えん",
+        "けむり"
+      ],
+      "ex": [
+        {
+          "base": "禁煙",
+          "hiragana": "きんえん",
+          "chinese": "禁烟"
+        },
+        {
+          "base": "煙",
+          "hiragana": "けむり",
+          "chinese": "烟"
+        }
+      ]
+    },
+    {
+      "ln": "1",
+      "base": "静",
+      "hiragana": [
+        "せい",
+        "しず-か",
+        "しず-まる"
+      ],
+      "ex": [
+        {
+          "base": "安静",
+          "hiragana": "あんせい",
+          "chinese": "安静"
+        },
+        {
+          "base": "静か",
+          "hiragana": "しずか",
+          "chinese": "寂静"
+        },
+        {
+          "base": "静まる",
+          "hiragana": "しずまる",
+          "chinese": "平静下来"
+        }
+      ]
+    },
+    {
+      "ln": "2",
+      "base": "危",
+      "hiragana": [
+        "き",
+        "あぶ-ない",
+        "あや-うい"
+      ],
+      "ex": [
+        {
+          "base": "危機",
+          "hiragana": "きき",
+          "chinese": "危机"
+        },
+        {
+          "base": "危ない",
+          "hiragana": "あぶない",
+          "chinese": "危险"
+        },
+        {
+          "base": "危うい",
+          "hiragana": "あやうい",
+          "chinese": "危险的"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "険",
+      "hiragana": [
+        "けん",
+        "けわ-しい"
+      ],
+      "ex": [
+        {
+          "base": "危険",
+          "hiragana": "きけん",
+          "chinese": "危险"
+        },
+        {
+          "base": "険しい",
+          "hiragana": "けわしい",
+          "chinese": "险峻"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "関",
+      "hiragana": [
+        "かん",
+        "かかわる"
+      ],
+      "ex": [
+        {
+          "base": "関心",
+          "hiragana": "かんしん",
+          "chinese": "关心"
+        },
+        {
+          "base": "関わる",
+          "hiragana": "かかわる",
+          "chinese": "关系到"
+        },
+        {
+          "base": "(〜に)関する",
+          "hiragana": "(〜に)かんする",
+          "chinese": "关于...的"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "係",
+      "hiragana": [
+        "けい",
+        "かかり"
+      ],
+      "ex": [
+        {
+          "base": "関係",
+          "hiragana": "かんけい",
+          "chinese": "关系"
+        },
+        {
+          "base": "係",
+          "hiragana": "かかり",
+          "chinese": "担当者"
+        },
+        {
+          "base": "係員",
+          "hiragana": "かかりいん",
+          "chinese": "工作人员"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "落",
+      "hiragana": [
+        "らく",
+        "お-ちる",
+        "お-とす"
+      ],
+      "ex": [
+        {
+          "base": "転落",
+          "hiragana": "てんらく",
+          "chinese": "滚下"
+        },
+        {
+          "base": "落第",
+          "hiragana": "らくだい",
+          "chinese": "不及格"
+        },
+        {
+          "base": "落ちる",
+          "hiragana": "おちる",
+          "chinese": "落下"
+        },
+        {
+          "base": "落とす",
+          "hiragana": "おとす",
+          "chinese": "使落下"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "石",
+      "hiragana": [
+        "せき",
+        "しゃく",
+        "いし"
+      ],
+      "ex": [
+        {
+          "base": "落石",
+          "hiragana": "らくせき",
+          "chinese": "落石"
+        },
+        {
+          "base": "磁石",
+          "hiragana": "じしゃく",
+          "chinese": "磁铁"
+        },
+        {
+          "base": "石",
+          "hiragana": "いし",
+          "chinese": "石头"
+        }
+      ]
+    },
+    {
+      "ln": "2",
+      "base": "飛",
+      "hiragana": [
+        "ひ",
+        "と-ぶ",
+        "と-ばす"
+      ],
+      "ex": [
+        {
+          "base": "飛行場",
+          "hiragana": "ひこうじょう",
+          "chinese": "机场"
+        },
+        {
+          "base": "飛ぶ",
+          "hiragana": "とぶ",
+          "chinese": "飞行"
+        },
+        {
+          "base": "飛び出す",
+          "hiragana": "とびだす",
+          "chinese": "跳出"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "駐",
+      "hiragana": [
+        "ちゅう"
+      ],
+      "ex": [
+        {
+          "base": "駐車場",
+          "hiragana": "ちゅうしゃじょう",
+          "chinese": "停车场"
+        },
+        {
+          "base": "駐車",
+          "hiragana": "ちゅうしゃ",
+          "chinese": "停车"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "捨",
+      "hiragana": [
+        "しゃく",
+        "す-てる"
+      ],
+      "ex": [
+        {
+          "base": "四捨五入",
+          "hiragana": "ししゃごにゅう",
+          "chinese": "四舍五入"
+        },
+        {
+          "base": "捨てる",
+          "hiragana": "すてる",
+          "chinese": "抛弃"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "遊",
+      "hiragana": [
+        "ゆう",
+        "あそ-ぶ"
+      ],
+      "ex": [
+        {
+          "base": "遊泳",
+          "hiragana": "ゆうえい",
+          "chinese": "游泳"
+        },
+        {
+          "base": "遊ぶ",
+          "hiragana": "あそぶ",
+          "chinese": "玩"
+        }
+      ]
+    },
+    {
+      "ln": "2",
+      "base": "泳",
+      "hiragana": [
+        "えい",
+        "およぐ"
+      ],
+      "ex": [
+        {
+          "base": "水泳",
+          "hiragana": "すいえい",
+          "chinese": "游泳"
+        },
+        {
+          "base": "泳ぐ",
+          "hiragana": "およぐ",
+          "chinese": "游泳"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "喫",
+      "hiragana": "きっ",
+      "ex": [
+        {
+          "base": "喫茶店",
+          "hiragana": "きっさてん",
+          "chinese": "咖啡店"
+        },
+        {
+          "base": "喫煙所",
+          "hiragana": "きつえんじょ",
+          "chinese": "吸烟室"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "非",
+      "hiragana": "ひ",
+      "ex": [
+        {
+          "base": "非〜",
+          "hiragana": "ひ",
+          "chinese": "非~"
+        },
+        {
+          "base": "非常口",
+          "hiragana": "ひじょうぐち",
+          "chinese": "太平门"
+        },
+        {
+          "base": "非常に",
+          "hiragana": "ひじょうに",
+          "chinese": "非常"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "御",
+      "hiragana": [
+        "ご",
+        "おん"
+      ],
+      "ex": [
+        {
+          "base": "御〜",
+          "hiragana": "ご〜",
+          "chinese": "表示尊敬"
+        },
+        {
+          "base": "御手洗い",
+          "hiragana": "おてあらい",
+          "chinese": "洗手间"
+        },
+        {
+          "base": "御中",
+          "hiragana": "おんちゅう",
+          "chinese": "公启"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "常",
+      "hiragana": [
+        "じょう",
+        "つね"
+      ],
+      "ex": [
+        {
+          "base": "日常",
+          "hiragana": "にちじょう",
+          "chinese": "日常"
+        },
+        {
+          "base": "常識",
+          "hiragana": "じょうしき",
+          "chinese": "常识"
+        },
+        {
+          "base": "常に",
+          "hiragana": "つねに",
+          "chinese": "经常"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "受",
+      "hiragana": [
+        "じゅ",
+        "う-ける"
+      ],
+      "ex": [
+        {
+          "base": "受験",
+          "hiragana": "じゅけん",
+          "chinese": "应试"
+        },
+        {
+          "base": "受ける",
+          "hiragana": "えける",
+          "chinese": "接受"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "付",
+      "hiragana": [
+        "ふ",
+        "つ-ける",
+        "つ-く"
+      ],
+      "ex": [
+        {
+          "base": "付近",
+          "hiragana": "ふきん",
+          "chinese": "附近"
+        },
+        {
+          "base": "〜付き",
+          "hiragana": "〜付き",
+          "chinese": "附带"
+        },
+        {
+          "base": "受付",
+          "hiragana": "うけつけ",
+          "chinese": "接待处"
+        },
+        {
+          "base": "日付",
+          "hiragana": "ひづけ",
+          "chinese": "日期"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "案",
+      "hiragana": "あん",
+      "ex": [
+        {
+          "base": "案内",
+          "hiragana": "あんない",
+          "chinese": "指示、向导"
+        },
+        {
+          "base": "案",
+          "hiragana": "あん",
+          "chinese": "草案"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "内",
+      "hiragana": [
+        "ない",
+        "うち"
+      ],
+      "ex": [
+        {
+          "base": "以内",
+          "hiragana": "いない",
+          "chinese": "以内"
+        },
+        {
+          "base": "社内",
+          "hiragana": "しゃない",
+          "chinese": "公司内"
+        },
+        {
+          "base": "〜内",
+          "hiragana": "〜ない",
+          "chinese": "~之内"
+        },
+        {
+          "base": "内",
+          "hiragana": "うち",
+          "chinese": "内、里面"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "議",
+      "hiragana": "ぎ",
+      "ex": [
+        {
+          "base": "会議室",
+          "hiragana": "かいぎしつ",
+          "chinese": "会议室"
+        },
+        {
+          "base": "不思議な",
+          "hiragana": "ふしぎな",
+          "chinese": "不可思议的"
+        },
+        {
+          "base": "議論",
+          "hiragana": "ぎろん",
+          "chinese": "争论"
+        },
+        {
+          "base": "議員",
+          "hiragana": "ぎいん",
+          "chinese": "议员"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "化",
+      "hiragana": [
+        "か",
+        "け"
+      ],
+      "ex": [
+        {
+          "base": "文化",
+          "hiragana": "ぶんか",
+          "chinese": "文化"
+        },
+        {
+          "base": "化学",
+          "hiragana": "かがく",
+          "chinese": "化学"
+        },
+        {
+          "base": "〜化",
+          "hiragana": "〜か",
+          "chinese": "~化"
+        },
+        {
+          "base": "化粧室",
+          "hiragana": "けしょうしつ",
+          "chinese": "化妆室"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "階",
+      "hiragana": "かい",
+      "ex": [
+        {
+          "base": "階段",
+          "hiragana": "かいだん",
+          "chinese": "楼梯"
+        },
+        {
+          "base": "〜階",
+          "hiragana": "〜かい",
+          "chinese": "~楼"
+        },
+        {
+          "base": "段階",
+          "hiragana": "だんかい",
+          "chinese": "阶段"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "段",
+      "hiragana": "だん",
+      "ex": [
+        {
+          "base": "段",
+          "hiragana": "だん",
+          "chinese": "楼梯、段落"
+        },
+        {
+          "base": "手段",
+          "hiragana": "しゅだん",
+          "chinese": "手段"
+        },
+        {
+          "base": "一段と",
+          "hiragana": "いちだんと",
+          "chinese": "更加"
+        },
+        {
+          "base": "石段",
+          "hiragana": "いしだん",
+          "chinese": "石阶"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "営",
+      "hiragana": "えい",
+      "ex": [
+        {
+          "base": "営業",
+          "hiragana": "えいぎょう",
+          "chinese": "营业"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "放",
+      "hiragana": [
+        "ほう",
+        "はな-す",
+        "はな-れる"
+      ],
+      "ex": [
+        {
+          "base": "放送",
+          "hiragana": "ほうそう",
+          "chinese": "广播"
+        },
+        {
+          "base": "開放",
+          "hiragana": "かいほう",
+          "chinese": "开放"
+        },
+        {
+          "base": "開放厳禁",
+          "hiragana": "かいほうげんきん",
+          "chinese": "禁止打开"
+        },
+        {
+          "base": "放す",
+          "hiragana": "はなす",
+          "chinese": "放开"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "押",
+      "hiragana": [
+        "おす",
+        "お-される"
+      ],
+      "ex": [
+        {
+          "base": "押す",
+          "hiragana": "おす",
+          "chinese": "按"
+        },
+        {
+          "base": "押し入れ",
+          "hiragana": "おしいれ",
+          "chinese": "日本式的壁橱"
+        },
+        {
+          "base": "押さえる",
+          "hiragana": "おさえる",
+          "chinese": "按压"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "準",
+      "hiragana": "じゅん",
+      "ex": [
+        {
+          "base": "準備",
+          "hiragana": "じゅんび",
+          "chinese": "准备"
+        },
+        {
+          "base": "水準",
+          "hiragana": "すいじゅん",
+          "chinese": "水平"
+        },
+        {
+          "base": "準急",
+          "hiragana": "じゅんきゅう",
+          "chinese": "普通快车"
+        },
+        {
+          "base": "準決勝",
+          "hiragana": "じゅんけっしょう",
+          "chinese": "半决赛"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "備",
+      "hiragana": [
+        "び",
+        "そな-える"
+      ],
+      "ex": [
+        {
+          "base": "備品",
+          "hiragana": "びひん",
+          "chinese": "备品"
+        },
+        {
+          "base": "備える",
+          "hiragana": "そなえる",
+          "chinese": "防备、设置、具备"
+        },
+        {
+          "base": "備え付けの",
+          "hiragana": "そなえつけの",
+          "chinese": "配备的"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "定",
+      "hiragana": [
+        "てい",
+        "定"
+      ],
+      "ex": [
+        {
+          "base": "定員",
+          "hiragana": "ていいん",
+          "chinese": "规定的人数"
+        },
+        {
+          "base": "定休日",
+          "hiragana": "ていきゅうび",
+          "chinese": "公休日"
+        },
+        {
+          "base": "定食",
+          "hiragana": "ていしょく",
+          "chinese": "客饭"
+        },
+        {
+          "base": "定規",
+          "hiragana": "じょうぎ",
+          "chinese": "尺"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "流",
+      "hiragana": [
+        "りゅう",
+        "なが-れる",
+        "なが-す"
+      ],
+      "ex": [
+        {
+          "base": "流行",
+          "hiragana": "りゅうこう",
+          "chinese": "流行"
+        },
+        {
+          "base": "流れる",
+          "hiragana": "ながれる",
+          "chinese": "流"
+        },
+        {
+          "base": "流す",
+          "hiragana": "ながす",
+          "chinese": "使...流动"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "清",
+      "hiragana": [
+        "せい",
+        "きよ-い"
+      ],
+      "ex": [
+        {
+          "base": "清書",
+          "hiragana": "せいしょ",
+          "chinese": "眷写"
+        },
+        {
+          "base": "清い",
+          "hiragana": "きよい",
+          "chinese": "清"
+        },
+        {
+          "base": "清流",
+          "hiragana": "せいりゅう",
+          "chinese": "清溪"
+        },
+        {
+          "base": "清い流れ",
+          "hiragana": "清いながれ",
+          "chinese": "清溪"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "掃",
+      "hiragana": [
+        "そう",
+        "は-く"
+      ],
+      "ex": [
+        {
+          "base": "清掃",
+          "hiragana": "せいそう",
+          "chinese": "打扫"
+        },
+        {
+          "base": "掃く",
+          "hiragana": "かく",
+          "chinese": "打扫"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "閉",
+      "hiragana": [
+        "はい",
+        "とじる",
+        "しめる",
+        "しまる"
+      ],
+      "ex": [
+        {
+          "base": "閉会",
+          "hiragana": "へいかい",
+          "chinese": "闭会"
+        },
+        {
+          "base": "閉店",
+          "hiragana": "へいてん",
+          "chinese": "关店"
+        },
+        {
+          "base": "閉まる",
+          "hiragana": "しまる",
+          "chinese": "紧闭"
+        },
+        {
+          "base": "閉める",
+          "hiragana": "しめる",
+          "chinese": "关闭"
+        },
+        {
+          "base": "閉じる",
+          "hiragana": "とじる",
+          "chinese": "(口目本)关闭"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "点",
+      "hiragana": "てん",
+      "ex": [
+        {
+          "base": "点",
+          "hiragana": "てん",
+          "chinese": "点"
+        },
+        {
+          "base": "〜点",
+          "hiragana": "〜てん",
+          "chinese": "~分"
+        },
+        {
+          "base": "欠点",
+          "hiragana": "けってん",
+          "chinese": "缺点"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "検",
+      "hiragana": "けん",
+      "ex": [
+        {
+          "base": "点検",
+          "hiragana": "てんけん",
+          "chinese": "检查"
+        },
+        {
+          "base": "検問",
+          "hiragana": "けんもん",
+          "chinese": "盘问"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "鉄",
+      "hiragana": "てつ",
+      "ex": [
+        {
+          "base": "地下鉄",
+          "hiragana": "ちかてつ",
+          "chinese": "地铁"
+        },
+        {
+          "base": "私鉄",
+          "hiragana": "してつ",
+          "chinese": "私营铁路"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "窓",
+      "hiragana": [
+        "そう",
+        "まど"
+      ],
+      "ex": [
+        {
+          "base": "同窓会",
+          "hiragana": "どうそうかい",
+          "chinese": "同学会"
+        },
+        {
+          "base": "窓",
+          "hiragana": "まど",
+          "chinese": "窗户"
+        },
+        {
+          "base": "窓口",
+          "hiragana": "まどくち",
+          "chinese": "窗口"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "符",
+      "hiragana": "ふ",
+      "ex": [
+        {
+          "base": "切符",
+          "hiragana": "きっふ",
+          "chinese": "票"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "精",
+      "hiragana": "せい",
+      "ex": [
+        {
+          "base": "精算",
+          "hiragana": "せいさん",
+          "chinese": "清算"
+        },
+        {
+          "base": "精神",
+          "hiragana": "せいしん",
+          "chinese": "精神、思想"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "算",
+      "hiragana": "さん",
+      "ex": [
+        {
+          "base": "計算",
+          "hiragana": "けいさん",
+          "chinese": "计算"
+        },
+        {
+          "base": "引き算",
+          "hiragana": "ひきさん",
+          "chinese": "减法"
+        },
+        {
+          "base": "足し算",
+          "hiragana": "たしさん",
+          "chinese": "加法"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "改",
+      "hiragana": [
+        "かい",
+        "あらためる",
+        "あらたまる"
+      ],
+      "ex": [
+        {
+          "base": "改正",
+          "hiragana": "かいせい",
+          "chinese": "修改"
+        },
+        {
+          "base": "改める",
+          "hiragana": "あらためる",
+          "chinese": "改正"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "札",
+      "hiragana": [
+        "さつ",
+        "ふだ"
+      ],
+      "ex": [
+        {
+          "base": "改札口",
+          "hiragana": "かいさつぐち",
+          "chinese": "检票口"
+        },
+        {
+          "base": "１万え円札",
+          "hiragana": "１まんえんさつ",
+          "chinese": "1万元纸币"
+        },
+        {
+          "base": "札",
+          "hiragana": "ふだ",
+          "chinese": "牌子"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "線",
+      "hiragana": "せん",
+      "ex": [
+        {
+          "base": "下線",
+          "hiragana": "かせん",
+          "chinese": "下划线"
+        },
+        {
+          "base": "線路",
+          "hiragana": "せんろ",
+          "chinese": "线路"
+        },
+        {
+          "base": "新幹線",
+          "hiragana": "しんかんせん",
+          "chinese": "新干线"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "刻",
+      "hiragana": [
+        "こく",
+        "きざむ"
+      ],
+      "ex": [
+        {
+          "base": "時刻",
+          "hiragana": "じこく",
+          "chinese": "时间"
+        },
+        {
+          "base": "刻む",
+          "hiragana": "きざむ",
+          "chinese": "刻上"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "番",
+      "hiragana": "ばん",
+      "ex": [
+        {
+          "base": "番号",
+          "hiragana": "ばんごう",
+          "chinese": "号码"
+        },
+        {
+          "base": "〜番線",
+          "hiragana": "〜ばんせん",
+          "chinese": "~号线"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "号",
+      "hiragana": "ごう",
+      "ex": [
+        {
+          "base": "符号",
+          "hiragana": "ふごう",
+          "chinese": "符号"
+        },
+        {
+          "base": "〜号車",
+          "hiragana": "〜ごうしゃ",
+          "chinese": "~号车"
+        },
+        {
+          "base": "信号",
+          "hiragana": "しんごう",
+          "chinese": "交通信号灯"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "快",
+      "hiragana": [
+        "かい",
+        "こころよ-い"
+      ],
+      "ex": [
+        {
+          "base": "快速",
+          "hiragana": "かいそく",
+          "chinese": "快速"
+        },
+        {
+          "base": "快い",
+          "hiragana": "こころよい",
+          "chinese": "愉快"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "速",
+      "hiragana": [
+        "そく",
+        "はや-い"
+      ],
+      "ex": [
+        {
+          "base": "時速",
+          "hiragana": "じそく",
+          "chinese": "时速"
+        },
+        {
+          "base": "早速",
+          "hiragana": "さっそく",
+          "chinese": "马上"
+        },
+        {
+          "base": "速い",
+          "hiragana": "はやい",
+          "chinese": "快"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "路",
+      "hiragana": "ろ",
+      "ex": [
+        {
+          "base": "道路",
+          "hiragana": "どうろ",
+          "chinese": "道路"
+        },
+        {
+          "base": "通路",
+          "hiragana": "つうろ",
+          "chinese": "走道"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "港",
+      "hiragana": [
+        "こう",
+        "みなと"
+      ],
+      "ex": [
+        {
+          "base": "空港",
+          "hiragana": "くうこう",
+          "chinese": "机场"
+        },
+        {
+          "base": "港",
+          "hiragana": "みなと",
+          "chinese": "港口"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "由",
+      "hiragana": [
+        "ゆう",
+        "ゆ"
+      ],
+      "ex": [
+        {
+          "base": "理由",
+          "hiragana": "りゆう",
+          "chinese": "理由"
+        },
+        {
+          "base": "不自由な",
+          "hiragana": "ふじゆうな",
+          "chinese": "残疾"
+        },
+        {
+          "base": "経由",
+          "hiragana": "けいゆ",
+          "chinese": "经由"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "深",
+      "hiragana": [
+        "しん",
+        "ふか-い"
+      ],
+      "ex": [
+        {
+          "base": "深夜",
+          "hiragana": "しんや",
+          "chinese": "深夜"
+        },
+        {
+          "base": "深刻な",
+          "hiragana": "しんこくな",
+          "chinese": "深刻"
+        },
+        {
+          "base": "深い",
+          "hiragana": "ふかい",
+          "chinese": "深"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "降",
+      "hiragana": [
+        "こう",
+        "お-りる",
+        "お-ろす",
+        "ふ-る"
+      ],
+      "ex": [
+        {
+          "base": "降車口",
+          "hiragana": "こうしゃぐち",
+          "chinese": "下车的地方"
+        },
+        {
+          "base": "下降",
+          "hiragana": "かこう",
+          "chinese": "下降"
+        },
+        {
+          "base": "降りる",
+          "hiragana": "おりる",
+          "chinese": "下来"
+        },
+        {
+          "base": "降る",
+          "hiragana": "ふる",
+          "chinese": "下降"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "両",
+      "hiragana": "りょう",
+      "ex": [
+        {
+          "base": "両親",
+          "hiragana": "りょうしん",
+          "chinese": "父母"
+        },
+        {
+          "base": "両方",
+          "hiragana": "りょうほう",
+          "chinese": "双方"
+        },
+        {
+          "base": "両〜",
+          "hiragana": "りょう〜",
+          "chinese": "双"
+        },
+        {
+          "base": "〜両目",
+          "hiragana": "〜りょうめ",
+          "chinese": "第~节车厢"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "替",
+      "hiragana": [
+        "か-える",
+        "か-わる"
+      ],
+      "ex": [
+        {
+          "base": "両替",
+          "hiragana": "りょうかえ",
+          "chinese": "兑换"
+        },
+        {
+          "base": "着替える",
+          "hiragana": "换衣服"
+        },
+        {
+          "base": "為替",
+          "hiragana": "汇兑"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "賃",
+      "hiragana": "ちん",
+      "ex": [
+        {
+          "base": "家賃",
+          "hiragana": "やちん",
+          "chinese": "房租"
+        },
+        {
+          "base": "運賃",
+          "hiragana": "うんちん",
+          "chinese": "运费"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "割",
+      "hiragana": [
+        "かつ",
+        "わ-る",
+        "わ-れる",
+        "わ-り"
+      ],
+      "ex": [
+        {
+          "base": "分割",
+          "hiragana": "ぶんかつ",
+          "chinese": "分割"
+        },
+        {
+          "base": "割れる",
+          "hiragana": "われる",
+          "chinese": "裂开"
+        },
+        {
+          "base": "割引",
+          "hiragana": "わりびき",
+          "chinese": "折扣"
+        },
+        {
+          "base": "時間割",
+          "hiragana": "じかんわり",
+          "chinese": "时间表"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "増",
+      "hiragana": [
+        "ぞう",
+        "ふ-える",
+        "ふ-やる",
+        "ま-す"
+      ],
+      "ex": [
+        {
+          "base": "増加",
+          "hiragana": "ぞうか",
+          "chinese": "增加"
+        },
+        {
+          "base": "増える",
+          "hiragana": "ふえる",
+          "chinese": "增加"
+        },
+        {
+          "base": "割増",
+          "hiragana": "わりまし",
+          "chinese": "加价"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "優",
+      "hiragana": [
+        "ゆう",
+        "やさ-しい",
+        "すぐ-れる"
+      ],
+      "ex": [
+        {
+          "base": "優先",
+          "hiragana": "ゆうせん",
+          "chinese": "优先"
+        },
+        {
+          "base": "優しい",
+          "hiragana": "やさしい",
+          "chinese": "温柔的"
+        },
+        {
+          "base": "優れる",
+          "hiragana": "すぐれる",
+          "chinese": "出色、卓越、优秀"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "席",
+      "hiragana": "せき",
+      "ex": [
+        {
+          "base": "席",
+          "hiragana": "せき",
+          "chinese": "座位"
+        },
+        {
+          "base": "出席",
+          "hiragana": "しゅつせき",
+          "chinese": "出席"
+        },
+        {
+          "base": "指定席",
+          "hiragana": "していせき",
+          "chinese": "指定座位"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "側",
+      "hiragana": [
+        "そく",
+        "かわ"
+      ],
+      "ex": [
+        {
+          "base": "側面",
+          "hiragana": "そくめん",
+          "chinese": "侧面"
+        },
+        {
+          "base": "両側",
+          "hiragana": "りょうがわ",
+          "chinese": "两侧"
+        },
+        {
+          "base": "〜側",
+          "hiragana": "〜がわ",
+          "chinese": "~侧"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "座",
+      "hiragana": [
+        "ず",
+        "すわ-る"
+      ],
+      "ex": [
+        {
+          "base": "座席",
+          "hiragana": "ざせき",
+          "chinese": "座位"
+        },
+        {
+          "base": "銀行口座",
+          "hiragana": "ぎんこうこうざ",
+          "chinese": "银行账户"
+        },
+        {
+          "base": "座る",
+          "hiragana": "すわる",
+          "chinese": "坐"
+        }
+      ]
+    },
+    {
+      "ln": "0",
+      "base": "寄",
+      "hiragana": [
+        "き",
+        "よ-る",
+        "よ-せる"
+      ],
+      "ex": [
+        {
+          "base": "寄付",
+          "hiragana": "きふ",
+          "chinese": "捐赠"
+        },
+        {
+          "base": "取り寄せる",
+          "hiragana": "とりよせる",
+          "chinese": "令送来"
+        },
+        {
+          "base": "立ち寄る",
+          "hiragana": "たちよる",
+          "chinese": "顺便到"
+        },
+        {
+          "base": "年寄り",
+          "hiragana": "としより",
+          "chinese": "年长者"
+        }
+      ]
+    },{
+    "ln": "0",
+    "base": "郵",
+    "hiragana": "ゆう",
+    "ex": [
+      {
+        "base": "郵便",
+        "hiragana": "ゆうびん",
+        "chinese": "邮件"
+      },
+      {
+        "base": "郵送",
+        "hiragana": "ゆうそう",
+        "chinese": "邮寄"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "局",
+    "hiragana": "きょく",
+    "ex": [
+      {
+        "base": "郵便局",
+        "hiragana": "ゆうびんきょく",
+        "chinese": "邮局"
+      },
+      {
+        "base": "薬局",
+        "hiragana": "やっきょく",
+        "chinese": "药店"
+      },
+      {
+        "base": "放送局",
+        "hiragana": "ほうそうきょく",
+        "chinese": "广播电台"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "貯",
+    "hiragana": "ちょ",
+    "ex": [
+      {
+        "base": "貯金",
+        "hiragana": "ちょきん",
+        "chinese": "储蓄"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "包",
+    "hiragana": [
+      "ほう",
+      "つつ-む",
+      "つつ-み"
+    ],
+    "ex": [
+      {
+        "base": "包帯",
+        "hiragana": "ほうたい",
+        "chinese": "绷带"
+      },
+      {
+        "base": "包む",
+        "hiragana": "つつむ",
+        "chinese": "包"
+      },
+      {
+        "base": "小包",
+        "hiragana": "こつつみ",
+        "chinese": "邮包"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "逹",
+    "hiragana": "たつ",
+    "ex": [
+      {
+        "base": "発達",
+        "hiragana": "はったつ",
+        "chinese": "发达"
+      },
+      {
+        "base": "速達",
+        "hiragana": "そくたつ",
+        "chinese": "快递"
+      },
+      {
+        "base": "友達",
+        "hiragana": "ともだち",
+        "chinese": "朋友"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "際",
+    "hiragana": "さい",
+    "ex": [
+      {
+        "base": "国際",
+        "hiragana": "こくさい",
+        "chinese": "国际"
+      },
+      {
+        "base": "〜の際",
+        "hiragana": "〜のさい",
+        "chinese": "~的时候"
+      },
+      {
+        "base": "実際に",
+        "hiragana": "じっさいに",
+        "chinese": "实际上"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "初",
+    "hiragana": [
+      "しょ",
+      "はじ-め",
+      "はじ-めて",
+      "はつ"
+    ],
+    "ex": [
+      {
+        "base": "初診",
+        "hiragana": "しょしん",
+        "chinese": "初诊"
+      },
+      {
+        "base": "初めて",
+        "hiragana": "はじめて",
+        "chinese": "初次"
+      },
+      {
+        "base": "初恋",
+        "hiragana": "はつこい",
+        "chinese": "初恋"
+      },
+      {
+        "base": "初雪",
+        "hiragana": "はつゆき",
+        "chinese": "初雪"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "再",
+    "hiragana": [
+      "さい",
+      "さ",
+      "ふたた-び"
+    ],
+    "ex": [
+      {
+        "base": "再診",
+        "hiragana": "さいしん",
+        "chinese": "复诊"
+      },
+      {
+        "base": "再生",
+        "hiragana": "さいせい",
+        "chinese": "再生"
+      },
+      {
+        "base": "再来年",
+        "hiragana": "さらいねん",
+        "chinese": "后年"
+      },
+      {
+        "base": "再び",
+        "hiragana": "ふたたび",
+        "chinese": "再次"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "療",
+    "hiragana": "りょう",
+    "ex": [
+      {
+        "base": "診療",
+        "hiragana": "しんりょう",
+        "chinese": "诊疗"
+      },
+      {
+        "base": "治療",
+        "hiragana": "ちりょう",
+        "chinese": "治疗"
+      },
+      {
+        "base": "医療",
+        "hiragana": "いりょう",
+        "chinese": "医疗"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "科",
+    "hiragana": "か",
+    "ex": [
+      {
+        "base": "科学",
+        "hiragana": "かがく",
+        "chinese": "科学"
+      },
+      {
+        "base": "外科",
+        "hiragana": "げか",
+        "chinese": "外科"
+      },
+      {
+        "base": "内科",
+        "hiragana": "ないか",
+        "chinese": "内科"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "婦",
+    "hiragana": "ふ",
+    "ex": [
+      {
+        "base": "産婦人科",
+        "hiragana": "さんふじんか",
+        "chinese": "妇产科"
+      },
+      {
+        "base": "主婦",
+        "hiragana": "しゅふ",
+        "chinese": "主妇"
+      },
+      {
+        "base": "婦人",
+        "hiragana": "ふじん",
+        "chinese": "妇女"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "皮",
+    "hiragana": [
+      "ひ",
+      "かわ"
+    ],
+    "ex": [
+      {
+        "base": "皮肉",
+        "hiragana": "ひにく",
+        "chinese": "讽刺"
+      },
+      {
+        "base": "皮",
+        "hiragana": "かわ",
+        "chinese": "皮"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "膚",
+    "hiragana": "ふ",
+    "ex": [
+      {
+        "base": "皮膚",
+        "hiragana": "ひふ",
+        "chinese": "皮肤"
+      }
+    ]
+  },
+  {
+    "ln": "0",
+    "base": "救",
+    "hiragana": [
+      "きゅう",
+      "すく-う"
+    ],
+    "ex": [
+      {
+        "base": "救急",
+        "hiragana": "きゅうきゅう",
+        "chinese": "急救"
+      },
+      {
+        "base": "救う",
+        "hiragana": "すくう",
+        "chinese": "救"
+      }
+    ]
+  }
+  ]
+}
