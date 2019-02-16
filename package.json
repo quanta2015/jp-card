@@ -1,0 +1,22 @@
+{
+  "name": "jpcard",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "install": "^0.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

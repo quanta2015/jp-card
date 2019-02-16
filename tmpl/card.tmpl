@@ -1,0 +1,15 @@
+<div class="m-card-wrap">
+  {{for list}}
+  <li class="m-card m-type{{:ln}} m-ch" data-index={{:idx}}>
+  		<span class="m-base">{{:base}}</span>
+  		<span class="m-hg">
+  			{{for hiragana}}
+  				<i>{{:#data}}</i>
+  			{{/for}}
+  		</span>
+  </li>
+  {{/for}}
+</div>
+
+<ul class="simple-pagination" id="card-pagination"></ul>
+
