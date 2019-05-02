@@ -1,6 +1,7 @@
 var jpd;
 var _hg = 1;
 var _ch = 1;
+var _base = 1;
 var _idx;
 var _type = -1;
 var _page = 1;
@@ -12,7 +13,7 @@ var COUNT;
 $(init);
 
 function init() {
-  promiseDataTmpl('/tmpl/card.tmpl','/getData',MASK, function(r,e){
+  promiseDataTmpl('/tmpl/cardword.tmpl','/getWord',MASK, function(r,e){
     renderCard(r,e)
   })
   
@@ -99,7 +100,8 @@ function renderCard(r,data) {
   }else if(_SEARCH_STATUS == 1){ //查询数据
     
     for(var i=0;i<data.list.length;i++) {
-      if(data.list[i].base === _SEARCH_CNT) {
+      console.log(data.list[i].base + ' - ' + data.list[i].chinese)
+      if ((data.list[i].base.indexOf(_SEARCH_CNT)>=0) || (data.list[i].hiragana.indexOf(_SEARCH_CNT)>=0) || (data.list[i].chinese.indexOf(_SEARCH_CNT)>=0) ) {
         e.list.push(data.list[i])
       }
     }
@@ -132,6 +134,7 @@ function renderCard(r,data) {
   $('.m-showHG').off('click').on('click', handleShowHG);
   $('.m-close').off('click').on('click', handleClose);
   $('.m-showCH').off('click').on('click', handleShowCH);
+  $('.m-showJP').off('click').on('click', handleShowJP);
   $('.m-status').off('click').on('click', handleStatus);
   $('.m-filter').off('click').on('click', handleFilter);
   $('.m-search-cancel').off('click').on('click', handleCloseSearch);
@@ -165,10 +168,8 @@ function renderCard(r,data) {
  function handleShowHG() {
     if (_hg===1) {
       $('.m-hg').css('visibility','hidden');
-      // $('.m-showHG').html('显示假名')
       _hg = 0;
     }else{
-      // $('.m-showHG').html('隐藏假名')
       $('.m-hg').css('visibility','visible');
       _hg = 1;
     }
@@ -177,13 +178,21 @@ function renderCard(r,data) {
 
  function handleShowCH() {
     if (_ch===1) {
-      $('.m-chinese').css('visibility','hidden');
-      $('.m-card').removeClass('m-ch')
+      $('.m-chi').css('visibility','hidden');
       _ch = 0;
     }else{
-      $('.m-chinese').css('visibility','visible');
-      $('.m-card').addClass('m-ch')
+      $('.m-chi').css('visibility','visible');
       _ch = 1;
+    }
+  }
+
+function handleShowJP() {
+    if (_base===1) {
+      $('.m-base').css('visibility','hidden');
+      _base = 0;
+    }else{
+      $('.m-base').css('visibility','visible');
+      _base = 1;
     }
   }
 
@@ -199,7 +208,8 @@ function renderDetail() {
   $('.m-filter').off('click').on('click', handleFilter);
   $('.m-detail').show();
   (_hg===1)?$('.m-hg').css('visibility','visible'):$('.m-hg').css('visibility','hidden');
-  (_ch===1)?$('.m-chinese').css('visibility','visible'):$('.m-chinese').css('visibility','hidden');
+  (_ch===1)?$('.m-chi').css('visibility','visible'):$('.m-chi').css('visibility','hidden');
+  (_base===1)?$('.m-base').css('visibility','visible'):$('.m-base').css('visibility','hidden');
 }
 
 function  handleDetail(e) {
@@ -214,7 +224,7 @@ function  handleClose(e) {
 function  handleStatus(e) {
     type = $(this).data('type');
     data = { 'index': _idx, 'type': type};
-    promise('get','/saveSucc',data,MASK, function(r) {
+    promise('get','/savewordSucc',data,MASK, function(r) {
       $(`.m-card[data-index='${_idx}']`).removeClass('m-type1').removeClass('m-type2').addClass(`m-type${type}`);
       $('.m-bs-wrap').removeClass('m-type1').removeClass('m-type2').addClass(`m-type${type}`);
       jpd.list[_idx].ln = type;
@@ -224,7 +234,7 @@ function  handleStatus(e) {
 function handleFilter(e) {
   _SEARCH_STATUS=0;
   _type = $(this).data('type');
-  promiseDataTmpl('/tmpl/card.tmpl','/getData',MASK, function(r,e){
+  promiseDataTmpl('/tmpl/cardword.tmpl','/getWord',MASK, function(r,e){
     renderCard(r,e)
   })
 }
@@ -237,7 +247,7 @@ function handleCloseSearch() {
 function handleDoSearch() {
   _SEARCH_STATUS = 1;
   _SEARCH_CNT = $('.m-search-cnt').val();
-  promiseDataTmpl('/tmpl/card.tmpl','/getData',MASK, function(r,e){
+  promiseDataTmpl('/tmpl/cardword.tmpl','/getWord',MASK, function(r,e){
     renderCard(r,e)
   })
 }

@@ -41,10 +41,12 @@ input::-webkit-input-placeholder {
     width: calc( (100% - 15px)/4 );
     margin: 0 5px 5px 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background: #eee;
     height: 60px;
     box-sizing: border-box;
+    padding: 0 0 0 5px;
+    position: relative;
 }
 
 
@@ -54,8 +56,8 @@ input::-webkit-input-placeholder {
 }
 
 .m-base {
-    font-size: 28px;
-    text-align: center;
+    font-size: 12px;
+    color: #333;
     padding: 0px 0 0 2px;
 }
 
@@ -63,11 +65,14 @@ input::-webkit-input-placeholder {
     font-size: 12px;
     color: #333;
     display: flex;
-    flex-direction: column;
     flex: 1;
-    transform: scale(0.7);
     color: #333;
-    margin-top: -10px;
+}
+
+
+.m-chi {
+   font-size: 12px;
+    color: #ff3300;
 }
 
 .m-nav {
@@ -104,11 +109,27 @@ input::-webkit-input-placeholder {
     height: calc( 100vh + 30px );
 }
 
-.m-bs-wrap {
+.m-bs-wrap,.m-hg-wrap,.m-ex-wrap {
     display: flex;
     padding: 10px 50px 10px 50px;
     justify-content: center;
+    font-size: 36px;
+    
+}
+
+.m-bs-wrap {
     background: #666;
+}
+
+.m-ex-wrap {
+    background: #eee;
+    color: #666;
+
+}
+
+.m-hg-wrap {
+    background: #aaa;
+    color: #fff
 }
 
 .m-bs-wrap .m-base {
@@ -121,11 +142,6 @@ input::-webkit-input-placeholder {
     font-size: 20px;
     flex: none;
     color: #eee;
-}
-
-.m-ex-wrap {
-    display: flex;
-    flex-direction: column;
 }
 
 .m-ex {
@@ -288,4 +304,12 @@ input::-webkit-input-placeholder {
 
 .m-search-ok {
     background-color: #ff0000;
+}
+
+.m-card label {
+    position: absolute;
+    right: 2px;
+    bottom: 0;
+    color: #66f;
+    font-size: 12px;
 }

@@ -127,6 +127,7 @@ span.ellipse.clickable {
 	background: -o-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Opera11.10+ */
 	background: -ms-linear-gradient(top, #ffffff 0%,#efefef 100%); /* IE10+ */
 	background: linear-gradient(top, #ffffff 0%,#efefef 100%); /* W3C */
+	text-decoration: none;
 }
 
 .light-theme a:hover, .light-theme li:not(.disabled):not(.active) span:hover {

@@ -7,6 +7,7 @@ var bodyParser = require('body-parser')
 var fs = require('fs');
 
 var filename =  path.resolve(__dirname,'.') + '/data/data.json';
+var wordname =  path.resolve(__dirname,'.') + '/data/word.json';
 
 var app = express();
 
@@ -27,6 +28,12 @@ app.get('/getData', function (req, res) {
   res.send(data);
 })
 
+app.get('/getWord', function (req, res) {
+  
+  var data = fs.readFileSync(wordname,'utf-8');
+  res.send(data);
+})
+
 app.get('/saveSucc', function (req, res) {
   var params = url.parse(req.url, true).query;
   var index = params.index;
@@ -40,6 +47,24 @@ app.get('/saveSucc', function (req, res) {
 
 
   fs.writeFile(filename, JSON.stringify(jd), function (err) {
+    if (err) console.error(err);
+    res.send(JSON.stringify(jd));
+  });
+})
+
+app.get('/savewordSucc', function (req, res) {
+  var params = url.parse(req.url, true).query;
+  var index = params.index;
+  var type = params.type;
+
+  var data = fs.readFileSync(wordname,'utf-8');
+
+  console.log(data)
+  var jd = JSON.parse(data);
+  jd.list[index].ln = type;
+
+
+  fs.writeFile(wordname, JSON.stringify(jd), function (err) {
     if (err) console.error(err);
     res.send(JSON.stringify(jd));
   });
