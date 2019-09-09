@@ -5,26 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/word.css">
+  <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="lib/simplePagination.css">
 </head>
 
 <body>
   <nav class="m-nav">
-    
-    <div class="m-btn m-showCH">
-      <svg class="g-icon" aria-hidden="true">
-        <use xlink:href="#icon-chinese"></use>
-      </svg>
-    </div>
     <div class="m-btn m-showHG">
       <svg class="g-icon" aria-hidden="true">
         <use xlink:href="#icon-japan"></use>
       </svg>
     </div>
-    <div class="m-btn m-showJP">
+    <div class="m-btn m-showCH">
       <svg class="g-icon" aria-hidden="true">
-        <use xlink:href="#icon-chi"></use>
+        <use xlink:href="#icon-chinese"></use>
       </svg>
     </div>
     <div class="m-btn m-filter m-for" data-type="2">
@@ -74,15 +68,22 @@
   <script type="text/x-jsrender" id="detailTmpl">
     <div class="m-bs-wrap m-type{{:ln}}">
         <span class="m-base">{{:base}}</span>
-       
+        <span class="m-hg">
+          {{for hiragana}}
+            <i>{{:#data}}</i>
+          {{/for}}
+        </span>
     </div>
-    <div class="m-hg-wrap m-hg">
-        {{for hiragana}}
-          {{:#data}}
-        {{/for}}
-    </div>
-    <div class="m-ex-wrap m-chi">
-        {{:chinese}}
+    <div class="m-ex-wrap">
+      {{for ex}}
+        <div class="m-ex">
+          <div class="m-jp">
+            <span class="m-base">{{:base}}</span>
+            <span class="m-hg">{{:hiragana}}</span>
+          </div>
+          <div class="m-chinese">{{:chinese}}</div>
+        </div>
+      {{/for}}
     </div>
 
     <div class="m-fun">
@@ -124,7 +125,7 @@
   <script src="/lib/iconfont.js"></script>
   <script src="/lib/hammer.js"></script>
   <script src="/js/common.js"></script>
-  <script src="/js/word.js"></script>
+  <script src="/js/index.js"></script>
 </body>
 
 </html>

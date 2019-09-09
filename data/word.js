@@ -9,7 +9,7 @@ var data = fs.readFileSync(inputFile,'utf-8').split(/[\n]/)
 data.forEach(function(e){
 	var item = {
       "ln": "0",
-      "type": "N4",
+      "type": "N3",
       "base": e.split('　')[0],
       "hiragana": e.split('　')[1],
       "chinese": e.split('　')[2]

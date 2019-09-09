@@ -1,4 +1,5 @@
 var jpd;
+var curJpd;
 var _hg = 1;
 var _ch = 1;
 var _base = 1;
@@ -46,10 +47,23 @@ function initSwipe() {
 
   mgDetail.on('swipe', function(e) {
     if (e.offsetDirection === 4) {
-      _idx--;
+      // _idx--;
+      for(var i=0;i<curJpd.list.length;i++) {
+        if ((curJpd.list[i].idx == _idx)&&(i>0)) {
+
+          _idx = curJpd.list[i-1].idx
+           break;
+        }
+      }
       renderDetail();
     }else if(  e.offsetDirection === 2 ) {
-      _idx++;
+      for(var i=0;i<curJpd.list.length;i++) {
+        if ((curJpd.list[i].idx == _idx)&&(i<curJpd.list.length-1)) {
+          _idx = curJpd.list[i+1].idx
+          break;
+        }
+      }
+      // _idx++;
       renderDetail();
     }
   })
@@ -127,7 +141,8 @@ function renderCard(r,data) {
 
     handleCloseSearch();
   }
-
+  
+  curJpd = e;
   $('.m-main').empty()
   $('.m-main').append($.templates(r).render(e, rdHelper));
   $('.m-card').off('click').on('click', handleDetail);
@@ -197,7 +212,13 @@ function handleShowJP() {
   }
 
 function renderDetail() {
-  da = jpd.list[_idx]
+  // let da;
+  for(var i=0;i<curJpd.list.length;i++) {
+    if (curJpd.list[i].idx == _idx) {
+      da = curJpd.list[i]
+    }
+  }
+  // da = curJpd.list[_idx]
   $('.m-detail').empty()
   $('.m-detail').append($('#detailTmpl').render(da, rdHelper));
   $('.m-card').off('click').on('click', handleDetail);

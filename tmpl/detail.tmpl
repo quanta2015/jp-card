@@ -1,0 +1,51 @@
+
+  <div class="m-bs-wrap m-type{{:ln}}">
+  		<span class="m-base">{{:base}}</span>
+  		<span class="m-hg">
+  			{{for hiragana}}
+  				<i>{{:#data}}</i>
+  			{{/for}}
+  		</span>
+  </div>
+  <div class="m-ex-wrap">
+    {{for ex}}
+      <div class="m-ex">
+        <div class="m-jp">
+          <span class="m-base">{{:base}}</span>
+          <span class="m-hg">{{:hiragana}}</span>
+        </div>
+        <div class="m-chinese">{{:chinese}}</div>
+      </div>
+    {{/for}}
+  </div>
+
+  <div class="m-fun">
+    <div class="m-btn m-close">
+      <svg class="g-icon" aria-hidden="true">
+        <use xlink:href="#icon-return"></use>
+      </svg>
+    </div>
+    <div class="m-btn m-showHG">
+      <svg class="g-icon" aria-hidden="true">
+        <use xlink:href="#icon-japan"></use>
+      </svg>
+    </div>
+    <div class="m-btn m-showCH">
+      <svg class="g-icon" aria-hidden="true">
+        <use xlink:href="#icon-chinese"></use>
+      </svg>
+    </div>
+    <div class="m-btn m-status m-ok" data-type="1">
+      <svg class="g-icon" aria-hidden="true">
+        <use xlink:href="#icon-ok"></use>
+      </svg>
+    </div>
+    <div class="m-btn m-status m-no" data-type="2">
+      <svg class="g-icon" aria-hidden="true">
+        <use xlink:href="#icon-del"></use>
+      </svg>
+    </div>
+    
+  </div>
+
+
